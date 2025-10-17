@@ -1,1 +1,54 @@
 npm create vite@latest
+
+REPOSITORIO GITHUB
+
+iniciar repositorio local:
+"git init"
+
+cambiar el nombre de master a main:
+"git branch -M main"
+
+Eliminar Credenciales de otros usuarios (Tener en cuenta si estas en una computadora publica):
+Win + S (Administrador de credenciales y credenciales de windows)
+Luego de eliminar las credenciales 
+
+Configurar usuario local de Git:
+"git config user.email "NuestroEmail"
+"git config user.name "NuestroNombre"
+
+Ahora agregar todos los archivos del proyecto:
+"git add ."
+
+Realizar un commit descriptivo de la version a subir:
+"git commit -m "primera subida"
+
+Copiar los dos ultimos "url" y ponerlos en el git local y una vez hecho esto, le damos enter, dependiendo si ya tenemos sesion iniciada o no, puede que nos pida ingresar nuestra cuenta de github
+"git remote add origin https://github.com/WiltedDr3mz/React_Cursos.git
+git push -u origin main"
+
+Y despues, actualizar la pagina (Se actualiza el repositorio)
+
+Enlazar el repositorio de la nube con el local
+"git remote add origin https://github.com/WiltedDr3mz/React_Cursos.git
+git push -u origin main"
+
+Luego saldra que debe iniciar sesion con el navegador:
+Inicie sesion con sus credenciales de GitHub.
+Listo, actualiza el repositorio de la nube.
+
+Comprobar el estado del proyecto:
+git status
+
+(Si aparece algo en rojo, significa que el archivo es nuevo o se ha modificado)
+
+Comandos para actualizar el repositorio con la version local:
+git status
+git add .
+git commit -m "nombre de la version o descripcion del commit"
+git push
+
+Crear ramas:
+git checkout -b "nombre_de_la_rama"
+git switch -c "nombre_de_la_rama"
+git push origin "nombre_de_la_rama"
+
