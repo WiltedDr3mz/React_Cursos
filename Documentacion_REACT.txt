@@ -48,7 +48,6 @@ git commit -m "nombre de la version o descripcion del commit"
 git push
 
 Crear ramas:
-git checkout -b "nombre_de_la_rama"
+git checkout -b "nombre_de_la_rama" (va primero)
+git push origin "nombre_de_la_rama" (va segundo)
 git switch -c "nombre_de_la_rama"
-git push origin "nombre_de_la_rama"
-
